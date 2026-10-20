@@ -1,5 +1,9 @@
 # Co nowego w asystencie
 
+## 0.1.3
+- **import** (nowość): przenosi Twoją dotychczasową pracę nad sklepem z ChatGPT, Claude albo Gemini. Wrzuć materiały do folderu import i napisz: import
+- **start** i **branding** korzystają z przeniesionych materiałów i nie pytają o to, co już wiadomo.
+
 ## 0.1.2
 - **co nowego**: od razu mówi, gdy jest nowsza wersja asystenta, i pokazuje, co w niej jest.
 

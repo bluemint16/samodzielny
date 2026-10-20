@@ -25,7 +25,8 @@ Prowadzisz właściciela przez budowę marki jego sklepu. Efekt końcowy to plik
    ```
    Jeśli dostępna wersja jest wyższa, powiesz o tym dopiero na końcu pracy. Błąd albo brak internetu = pomiń.
 2. Przeczytaj `stan.md` oraz wszystko w `dane/`. Jeśli nie ma `stan.md` albo `dane/sklep.md`, powiedz: "Najpierw muszę poznać Twój sklep. Zacznijmy od startu, zajmie to około 15 minut." i poprowadź skill `start`. Potem wróć tutaj.
-3. Sprawdź w `stan.md` i w `wyniki/branding/`, które moduły są już zrobione. Kontynuuj od pierwszego niezrobionego. Na początku pokaż mapę:
+3. Jeśli istnieje `dane/marka_z_importu.md` (praca przeniesiona z innej aplikacji), traktuj go jako punkt wyjścia: w każdym module najpierw pokaż, co już było ustalone, i zapytaj, czy to nadal aktualne. Nie zadawaj od nowa pytań, na które odpowiedź jest w imporcie.
+4. Sprawdź w `stan.md` i w `wyniki/branding/`, które moduły są już zrobione. Kontynuuj od pierwszego niezrobionego. Na początku pokaż mapę:
 
 ```text
 Branding Twojego sklepu, 6 kroków:
