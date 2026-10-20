@@ -1,0 +1,11 @@
+{
+  "name": "luka",
+  "displayName": "Asystent marketingu sklepu",
+  "version": "0.1.0",
+  "description": "Wspólny agent AI społeczności właścicieli sklepów internetowych. Zbiera wiedzę o Twoim sklepie, buduje markę i prowadzi SEO pod Google i asystentów AI.",
+  "author": {
+    "name": "Blue Mint",
+    "email": "biuro@blue-mint.pl"
+  },
+  "keywords": ["e-commerce", "marketing", "seo", "branding", "sklep internetowy"]
+}

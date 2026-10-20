@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Asystent marketingu sklepu</title>
+<style>
+  :root { --bg:#f7f8f6; --card:#fff; --text:#1d2420; --muted:#5b665f; --accent:#1f8a6a; --line:#dfe5e1; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#131715; --card:#1b201d; --text:#e8eeea; --muted:#9aa8a0; --accent:#4cc39c; --line:#2c3430; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:30px; line-height:1.2; margin:0 0 8px; }
+  h2 { font-size:20px; margin:36px 0 8px; }
+  p.lead { color:var(--muted); margin:0 0 24px; }
+  ol { padding-left:22px; } li { margin:6px 0; }
+  .box { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; position:relative; }
+  pre { margin:0; white-space:pre-wrap; word-break:break-word; font:14px/1.5 ui-monospace,Menlo,Consolas,monospace; }
+  button { margin-top:12px; background:var(--accent); color:#fff; border:0; border-radius:8px; padding:10px 16px; font-size:15px; cursor:pointer; }
+  .note { color:var(--muted); font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Asystent marketingu sklepu</h1>
+  <p class="lead">Wspólny agent AI naszej społeczności. Instalujesz go raz, nowe umiejętności dostajesz w aktualizacjach.</p>
+
+  <h2>Czego potrzebujesz</h2>
+  <ol>
+    <li>Aplikacji Claude na komputer (Mac albo Windows) i płatnego planu Claude.</li>
+    <li>Pustego folderu na komputerze, np. <b>Mój sklep</b>.</li>
+  </ol>
+
+  <h2>Instalacja (5 minut)</h2>
+  <ol>
+    <li>Otwórz aplikację Claude i przejdź do zakładki <b>Code</b>.</li>
+    <li>Wybierz folder <b>Mój sklep</b> jako folder pracy.</li>
+    <li>Skopiuj wiadomość poniżej, wklej ją do Claude i wyślij.</li>
+    <li>Gdy Claude poprosi o zgodę na uruchomienie polecenia, kliknij zgodę.</li>
+    <li>Na koniec otwórz nową rozmowę w tym samym folderze i napisz: <b>start</b>.</li>
+  </ol>
+
+  <div class="box">
+<pre id="msg">Zainstaluj mi asystenta marketingu sklepu z mojej społeczności.
+1. Sprawdź, czy działa polecenie: claude --version
+2. Uruchom: claude plugin marketplace add {{BASE_URL}}/marketplace.json
+3. Uruchom: claude plugin install luka@samodzielny
+4. Sprawdź wynik: claude plugin list
+Jeśli polecenie claude nie istnieje albo coś się nie uda, wyjaśnij mi prosto, co się stało, i zaproponuj, co zrobić. Na końcu powiedz mi, żebym otworzył nową rozmowę i napisał: start</pre>
+    <button id="copy" type="button">Kopiuj wiadomość</button>
+  </div>
+
+  <h2>Po instalacji</h2>
+  <p>Nie musisz pamiętać komend. Pisz zwyczajnie, np. „zróbmy branding”, „sprawdź SEO mojego sklepu”, „co nowego”. Gdy asystent napisze, że jest nowa wersja, odpisz: <b>aktualizuj</b>.</p>
+  <p class="note">Twoje dane zostają w folderze „Mój sklep” na Twoim komputerze. Aktualizacje zmieniają tylko umiejętności asystenta, nigdy Twoich plików.</p>
+</main>
+<script>
+  document.getElementById('copy').addEventListener('click', function () {
+    var text = document.getElementById('msg').innerText;
+    var btn = this;
+    navigator.clipboard.writeText(text).then(function () {
+      btn.textContent = 'Skopiowano';
+      setTimeout(function () { btn.textContent = 'Kopiuj wiadomość'; }, 2000);
+    });
+  });
+</script>
+</body>
+</html>

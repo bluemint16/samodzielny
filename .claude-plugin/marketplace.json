@@ -1,0 +1,15 @@
+{
+  "name": "samodzielny-dev",
+  "description": "Wersja robocza do testów na Twoim komputerze. Uczestnicy dostają katalog zbudowany przez scripts/build.py.",
+  "owner": {
+    "name": "Blue Mint",
+    "email": "biuro@blue-mint.pl"
+  },
+  "plugins": [
+    {
+      "name": "luka",
+      "source": "./plugins/luka",
+      "description": "Asystent marketingu sklepu: start, branding, SEO."
+    }
+  ]
+}
