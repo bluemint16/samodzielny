@@ -1,5 +1,8 @@
 # Co nowego w asystencie
 
+## 0.1.2
+- **co nowego**: od razu mówi, gdy jest nowsza wersja asystenta, i pokazuje, co w niej jest.
+
 ## 0.1.1
 - **start**: podpowiedź, jak pobrać plik z produktami ze sklepu (Shopify, WooCommerce, PrestaShop, Shoper, IdoSell). Asystent sprawdza też, ile produktów widzi w pliku.
 

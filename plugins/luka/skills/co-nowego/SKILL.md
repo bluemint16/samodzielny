@@ -5,6 +5,12 @@ description: Pokazuje, co nowego w asystencie marketingu sklepu i jakie umiejęt
 
 # Co nowego i co umiem
 
+0. Sprawdź wersję zainstalowaną i dostępną:
+   ```bash
+   claude plugin list 2>/dev/null | grep -A4 "luka@samodzielny" | grep -i version
+   curl -fsS --max-time 5 "{{BASE_URL}}/version.json"
+   ```
+   Jeśli dostępna wersja jest wyższa, zacznij odpowiedź od: "Jest nowa wersja asystenta ([dostępna], masz [zainstalowana]). Napisz: aktualizuj". Potem pokaż też, co nowego w wersji dostępnej (pole `zmiany` z `version.json`). Błąd albo brak internetu = pomiń ten krok.
 1. Przeczytaj `${CLAUDE_PLUGIN_ROOT}/CHANGELOG.md`. Jeśli ścieżka nie działa, znajdź plik poleceniem:
    ```bash
    find ~/.claude/plugins -path "*luka*" -name CHANGELOG.md 2>/dev/null | sort | tail -1
