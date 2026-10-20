@@ -1,6 +1,6 @@
 # Gotowe teksty do społeczności
 
-Podmień `ADRES` na adres strony instalacji (np. `https://TWOJ-LOGIN.github.io/samodzielny/`).
+Adres strony instalacji: `https://bluemint16.github.io/samodzielny/`.
 
 ---
 
@@ -32,7 +32,7 @@ Od dziś każdy z nas może zainstalować wspólnego asystenta AI do marketingu 
 2. **branding**: 6 kroków od wyróżnika do brand booku. Na koniec pokazuje opis Twojego produktu przed i po.
 3. **seo**: audyt sklepu pod Google i ChatGPT, frazy klientów, gotowe tytuły i opisy do wklejenia, comiesięczny przegląd Search Console.
 
-**Jak zainstalować (5 minut):** wejdź na ADRES i postępuj według instrukcji. Jest tam wiadomość do skopiowania, Claude zrobi resztę.
+**Jak zainstalować (5 minut):** wejdź na https://bluemint16.github.io/samodzielny/ i postępuj według instrukcji. Jest tam wiadomość do skopiowania, Claude zrobi resztę.
 
 **Twoje dane są bezpieczne:** wszystko zostaje w folderze na Twoim komputerze. Aktualizacje zmieniają tylko umiejętności asystenta.
 

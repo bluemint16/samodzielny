@@ -78,7 +78,7 @@ To jedyny sposób, żeby wyłapać problemy, których nie widać na komputerze t
 5. Dopisz nowy skill do menu w `plugins/luka/skills/co-nowego/SKILL.md` i do listy w `plugins/luka/skills/start/SKILL.md` (sekcja CLAUDE.md).
 6. Dopisz wpis na górze `plugins/luka/CHANGELOG.md`.
 7. Podnieś wersję w `plugins/luka/.claude-plugin/plugin.json`: nowa umiejętność `0.2.0`, poprawka `0.1.1`.
-8. Commit i push. Po 2 minutach wersja jest dostępna.
+8. Commit i push (w GitHub Desktop: Commit, potem Push origin). Po zielonym znaczku w Actions odczekaj do 10 minut: GitHub Pages trzyma pliki w pamięci podręcznej, więc wcześniej asystenci mogą widzieć starą wersję.
 9. Ogłoś w społeczności: co nowego, 2-minutowe demo, "napisz: aktualizuj".
 
 **Bez podniesienia wersji uczestnicy nie dostaną zmian.**
