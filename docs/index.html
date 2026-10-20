@@ -42,12 +42,13 @@
   </ol>
 
   <div class="box">
-<pre id="msg">Zainstaluj mi asystenta marketingu sklepu z mojej społeczności.
+<pre id="msg">Zainstaluj mi asystenta marketingu sklepu Luka ze społeczności Samodzielny e-commerce. Tłumacz mi wszystko prostym językiem.
 1. Sprawdź, czy działa polecenie: claude --version
-2. Uruchom: claude plugin marketplace add {{BASE_URL}}/marketplace.json
-3. Uruchom: claude plugin install luka@samodzielny
-4. Sprawdź wynik: claude plugin list
-Jeśli polecenie claude nie istnieje albo coś się nie uda, wyjaśnij mi prosto, co się stało, i zaproponuj, co zrobić. Na końcu powiedz mi, żebym otworzył nową rozmowę i napisał: start</pre>
+2. Jeśli nie działa, zapytaj mnie o zgodę i zainstaluj Claude Code oficjalnym instalatorem Anthropic (Mac: curl -fsSL https://claude.ai/install.sh | bash, Windows w PowerShell: irm https://claude.ai/install.ps1 | iex). Jeśli po instalacji polecenie dalej nie działa, użyj pełnej ścieżki do programu, którą poda instalator.
+3. Uruchom: claude plugin marketplace add {{BASE_URL}}/marketplace.json
+4. Uruchom: claude plugin install luka@samodzielny
+5. Sprawdź: claude plugin list (luka@samodzielny ma mieć status enabled)
+Jeśli coś się nie uda, wyjaśnij mi prosto, co się stało, i zaproponuj, co zrobić. Na końcu powiedz mi, żebym otworzył nową rozmowę w tym samym folderze i napisał: co nowego</pre>
     <button id="copy" type="button">Kopiuj wiadomość</button>
   </div>
 
