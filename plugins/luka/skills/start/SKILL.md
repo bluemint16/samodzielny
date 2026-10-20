@@ -70,6 +70,14 @@ Pomiń pytania, na które znasz już odpowiedź ze strony. Dopytuj, gdy odpowied
 
 Na koniec zapytaj o pliki (dobrowolnie): "Jeśli masz eksport produktów ze sklepu (plik CSV), wrzuć go do folderu dane. Przyda się przy SEO i opisach. Nie wiesz, jak to zrobić? Napisz nazwę swojej platformy, a podpowiem."
 
+Podpowiedzi eksportu (punkt startu; panele się zmieniają, więc gdy właściciel nie widzi opisanego miejsca, wyszukaj aktualną instrukcję w pomocy platformy i podaj link):
+- **Shopify:** Produkty → Eksportuj → "Wszystkie produkty", format CSV dla Excela lub zwykły CSV. Plik przyjdzie mailem.
+- **WooCommerce:** Produkty → Wszystkie produkty → przycisk Eksportuj na górze listy.
+- **PrestaShop:** Katalog → Produkty → ikona eksportu (strzałka) nad listą produktów.
+- **Shoper i IdoSell:** eksport produktów jest w panelu (szukaj "eksport" w sekcji produktów albo w pomocy platformy).
+
+Po wrzuceniu pliku do `dane/` sprawdź, czy da się go odczytać, i powiedz jednym zdaniem, ile produktów widzisz. Nie poprawiaj i nie przesyłaj pliku nigdzie dalej.
+
 ## Krok 4. Pokaż plan zapisu
 
 Pokaż dokładnie taki plan i poczekaj na "OK":

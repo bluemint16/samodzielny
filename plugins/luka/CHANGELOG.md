@@ -1,5 +1,8 @@
 # Co nowego w asystencie
 
+## 0.1.1
+- **start**: podpowiedź, jak pobrać plik z produktami ze sklepu (Shopify, WooCommerce, PrestaShop, Shoper, IdoSell). Asystent sprawdza też, ile produktów widzi w pliku.
+
 ## 0.1.0 (pierwsza wersja)
 - **start**: asystent poznaje Twój sklep (oferta, klienci, marketing) i zakłada pamięć w folderze. Napisz: start
 - **branding**: 6 kroków od wyróżnika do brand booku, z testem na prawdziwym produkcie. Napisz: branding
