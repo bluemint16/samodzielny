@@ -1,5 +1,8 @@
 # Co nowego w asystencie
 
+## 0.1.4
+- **postęp** (nowość): pokazuje, na jakim etapie jesteś (start, branding krok po kroku, zadanie domowe), podpowiada jeden następny krok i przygotowuje krótki raport do wklejenia na spotkaniu. Napisz: postęp
+
 ## 0.1.3
 - **import** (nowość): przenosi Twoją dotychczasową pracę nad sklepem z ChatGPT, Claude albo Gemini. Wrzuć materiały do folderu import i napisz: import
 - **start** i **branding** korzystają z przeniesionych materiałów i nie pytają o to, co już wiadomo.
