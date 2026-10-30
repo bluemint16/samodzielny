@@ -23,6 +23,7 @@ Co umiem:
 - start: poznaję Twój sklep i zakładam pamięć asystenta
 - import: przenoszę Twoją pracę z ChatGPT, Claude albo Gemini
 - branding: budujemy markę krok po kroku, kończymy brand bookiem
+- uvp: po brandingu ustalamy, dlaczego klient ma kupić właśnie u Ciebie
 - postęp: pokazuję, gdzie jesteś i co dalej (raport na spotkanie)
 - seo: audyt, frazy, opisy kart i kategorii, widoczność w AI, przegląd Search Console
 - aktualizuj: pobieram najnowszą wersję

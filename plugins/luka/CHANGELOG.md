@@ -1,5 +1,9 @@
 # Co nowego w asystencie
 
+## 0.1.5
+- **uvp** (nowość): po brandingu budujemy UVP sklepu, czyli odpowiedź na pytanie klienta „dlaczego mam kupić u Ciebie?”. 6 kroków: klient, Twoja odpowiedź, konkurencja, zdanie, test, gotowa góra strony głównej. Napisz: uvp
+- **branding** i **postęp** wskazują UVP jako następny krok po brand booku.
+
 ## 0.1.4
 - **postęp** (nowość): pokazuje, na jakim etapie jesteś (start, branding krok po kroku, zadanie domowe), podpowiada jeden następny krok i przygotowuje krótki raport do wklejenia na spotkaniu. Napisz: postęp
 

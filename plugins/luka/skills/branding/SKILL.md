@@ -121,7 +121,7 @@ Zapis: `wyniki/branding/5_doswiadczenie.md`.
 1. Złóż wszystko w `dane/marka.md` według szablonu z `references/marka_szablon.md`. Plik ma być krótki: najwyżej 2 strony. Sekcja "Szybki start" na górze to 5 linijek, które czyta każda inna umiejętność.
 2. Pokaż plan zapisu i poczekaj na "OK". Jeśli `dane/marka.md` istnieje, pokaż różnice i zapytaj, co zmienić.
 3. **Test.** Weź jeden prawdziwy produkt ze sklepu (właściciel wskazuje albo bierzesz najważniejszy z `dane/sklep.md`). Pokaż obok siebie: obecny opis i opis napisany według `dane/marka.md`. Zapisz w `wyniki/branding/test_opisu.md`. To jest pierwszy konkretny efekt pracy nad marką.
-4. Dopisz do `stan.md`: datę, "branding: brand book gotowy", następny krok.
+4. Dopisz do `stan.md`: datę, "branding: brand book gotowy", następny krok: **uvp** ("Teraz zamienimy markę w UVP: jedną obietnicę, dlaczego klient ma kupić właśnie u Ciebie. Napisz: uvp").
 
 ## Zakończenie każdej sesji
 

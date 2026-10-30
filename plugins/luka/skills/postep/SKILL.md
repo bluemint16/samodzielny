@@ -31,6 +31,7 @@ Zapamiętaj zainstalowaną wersję do raportu. Jeśli dostępna jest wyższa, do
 | Branding 4. Wygląd | `wyniki/branding/4_wyglad.md` | istnieje |
 | Branding 5. Doświadczenie | `wyniki/branding/5_doswiadczenie.md` | istnieje |
 | Branding 6. Brand book | `dane/marka.md` i `wyniki/branding/test_opisu.md` | oba istnieją |
+| UVP | pliki w `wyniki/uvp/`; gotowe, gdy jest `dane/uvp.md` | liczba modułów 1–6 |
 | SEO | pliki w `wyniki/seo/` | istnieje którykolwiek |
 
 3. Policz w plikach `dane/*.md` wystąpienia `BRAK DANYCH`. To luki w wiedzy o sklepie.
@@ -61,6 +62,7 @@ Branding              [X z 6 kroków]
   4. Wygląd           [✓ / –]
   5. Doświadczenie    [✓ / –]
   6. Brand book       [✓ / –]
+UVP                   [X z 6 kroków / gotowe]
 SEO                   [zaczęte / jeszcze nie]
 
 Luki w wiedzy o sklepie: [liczba] pól "BRAK DANYCH"
@@ -76,7 +78,8 @@ Wybierz dokładnie jeden, według kolejności:
 2. Start zrobiony, branding nie zaczęty → "Napisz: branding. Pierwszy krok to pozycja na rynku, około 20 minut. Przygotuj adresy 3 sklepów konkurencji."
 3. Branding w trakcie → "Napisz: branding. Asystent zacznie od kroku [N]: [nazwa], około [15–20] minut."
 4. Brand book jest, ale warunek zadania niespełniony → konkretna poprawka, np. "Dopisz dowód do wyróżnika: napisz branding i poproś o poprawkę kroku 1."
-5. Zadanie domowe zrobione → "Gratulacje, brand book gotowy. Następny krok: seo. Teraz każdy opis produktu powstanie w tonie Twojej marki."
+5. Zadanie domowe zrobione, UVP nie zaczęte lub w trakcie → "Gratulacje, brand book gotowy. Następny krok: uvp. Zamienimy markę w jedną obietnicę: dlaczego klient ma kupić u Ciebie."
+6. UVP gotowe (`dane/uvp.md`) → "Następny krok: seo. Opisy i nagłówki pod Google powstaną wokół Twojego UVP."
 
 Jeśli w `dane/` jest dużo `BRAK DANYCH` (5 i więcej), dodaj jedno zdanie: "Warto uzupełnić wiedzę o sklepie: napisz start i poproś o uzupełnienie braków."
 
@@ -85,14 +88,15 @@ Jeśli w `dane/` jest dużo `BRAK DANYCH` (5 i więcej), dodaj jedno zdanie: "Wa
 Zapytaj jednym zdaniem: "Czy coś Cię zablokowało albo z czym potrzebujesz pomocy? Napisz krótko albo: nie". Po odpowiedzi pokaż raport do skopiowania:
 
 ```text
-Luka [wersja] | etap [A/B/C/D] | start [✓/–] | branding [X]/6 | następny krok: [krótko] | pomoc: [nie / treść]
+Luka [wersja] | etap [A/B/C/D/E] | start [✓/–] | branding [X]/6 | uvp [X]/6 | następny krok: [krótko] | pomoc: [nie / treść]
 ```
 
 Etapy:
 - **A**: asystent nie działa albo nie ma pliku `stan.md` i `dane/` (nie zrobiony start).
 - **B**: start zrobiony, branding nie zaczęty.
 - **C**: branding w trakcie (1–5 z 6).
-- **D**: brand book gotowy (`dane/marka.md` i `test_opisu.md`).
+- **D**: brand book gotowy (`dane/marka.md` i `test_opisu.md`), UVP w toku albo nie zaczęte.
+- **E**: UVP gotowe (`dane/uvp.md`).
 
 Pod raportem dodaj: "Skopiuj tę linię i wklej na czacie spotkania albo w komentarzu pod lekcją. Nie zawiera danych Twoich klientów ani liczb sklepu."
 
