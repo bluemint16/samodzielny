@@ -1,5 +1,8 @@
 # Co nowego w asystencie
 
+## 0.1.6
+- **black week** (nowość): doradca Black Week 2026 od Blue Mint. Audyt gotowości sklepu, promocja policzona na marży i zapasie, kanały reklamy, harmonogram, grafiki i maile, kontrola najniższej ceny z 30 dni. Ma plan ratunkowy, gdy zostało mało czasu. Napisz: black week
+
 ## 0.1.5
 - **uvp** (nowość): po brandingu budujemy UVP sklepu, czyli odpowiedź na pytanie klienta „dlaczego mam kupić u Ciebie?”. 6 kroków: klient, Twoja odpowiedź, konkurencja, zdanie, test, gotowa góra strony głównej. Napisz: uvp
 - **branding** i **postęp** wskazują UVP jako następny krok po brand booku.

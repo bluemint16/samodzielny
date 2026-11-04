@@ -33,6 +33,7 @@ Zapamiętaj zainstalowaną wersję do raportu. Jeśli dostępna jest wyższa, do
 | Branding 6. Brand book | `dane/marka.md` i `wyniki/branding/test_opisu.md` | oba istnieją |
 | UVP | pliki w `wyniki/uvp/`; gotowe, gdy jest `dane/uvp.md` | liczba modułów 1–6 |
 | SEO | pliki w `wyniki/seo/` | istnieje którykolwiek |
+| Black Week | pliki w `wyniki/black-week/` | liczba kroków 1–7 |
 
 3. Policz w plikach `dane/*.md` wystąpienia `BRAK DANYCH`. To luki w wiedzy o sklepie.
 4. Jeśli `stan.md` istnieje, przeczytaj sekcje "Zrobione" i "Następny krok".
@@ -64,6 +65,7 @@ Branding              [X z 6 kroków]
   6. Brand book       [✓ / –]
 UVP                   [X z 6 kroków / gotowe]
 SEO                   [zaczęte / jeszcze nie]
+Black Week            [X z 7 kroków / jeszcze nie]
 
 Luki w wiedzy o sklepie: [liczba] pól "BRAK DANYCH"
 ```

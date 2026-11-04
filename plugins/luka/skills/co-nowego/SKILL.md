@@ -25,6 +25,7 @@ Co umiem:
 - branding: budujemy markę krok po kroku, kończymy brand bookiem
 - uvp: po brandingu ustalamy, dlaczego klient ma kupić właśnie u Ciebie
 - postęp: pokazuję, gdzie jesteś i co dalej (raport na spotkanie)
+- black week: plan promocji na Black Week, Black Friday i Cyber Monday
 - seo: audyt, frazy, opisy kart i kategorii, widoczność w AI, przegląd Search Console
 - aktualizuj: pobieram najnowszą wersję
 - co nowego: to, co czytasz
