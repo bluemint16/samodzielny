@@ -109,6 +109,8 @@ Zapis: `wyniki/black-week/2_oferta.md`.
 3. Mediapanel (`references/mediapanel-2026.md`) pokaż jako tło: jak popularne są kanały w Polsce. Zawsze z dopiskiem, że zasięg nie mówi, czy reklama w nim się opłaci.
 4. Budżet w 3 wariantach: ostrożny, bazowy, ofensywny. Każdy oparty na CPA max z Kroku 3, oznaczony jako scenariusz, a nie prognoza.
 
+Gdy właściciel wybiera Meta Ads, szczegółowy plan kampanii, reklamy i instrukcję ustawienia przygotuj umiejętnością `meta-kampania` (kampania np. `black-week-2026`).
+
 Zapis: `wyniki/black-week/3_kanaly.md`.
 
 ## Krok 5. Harmonogram

@@ -1,5 +1,13 @@
 # Co nowego w asystencie
 
+## 0.1.7
+- **meta reklamy** (nowość): reklamy na Facebooku i Instagramie krok po kroku. Asystent pamięta Twoje kampanie i prowadzi każdą od planu do wyników. Napisz: meta reklamy
+- **meta kampania**: plan kampanii, teksty reklam, brief grafik i instrukcja „co kliknąć” w Menedżerze reklam. Uczciwie mówi, na co starczy budżet.
+- **meta analiza**: wrzuć eksport z Menedżera reklam, a asystent powie, co działa, co marnuje pieniądze i czego nie wyłączać pochopnie.
+- **meta zasady**: sprawdza reklamę z aktualnymi zasadami Meta i zasadami obniżek cen, zanim ją wyślesz.
+- Wiedza Blue Mint o Meta Ads 2026: jak Meta wybiera reklamy, struktury kampanii dla sklepu, 5 typów reklam, sprawdzenie piksela, kokpit kolumn, progi rentowności (BE ROAS, Max CPA), strefy decyzji i skalowanie.
+- Luka nie łączy się z Twoim kontem reklamowym i niczego w nim nie zmienia. Umiejętności oparte na otwartych materiałach GooseWorks (licencja MIT) i wiedzy Blue Mint.
+
 ## 0.1.6
 - **black week** (nowość): doradca Black Week 2026 od Blue Mint. Audyt gotowości sklepu, promocja policzona na marży i zapasie, kanały reklamy, harmonogram, grafiki i maile, kontrola najniższej ceny z 30 dni. Ma plan ratunkowy, gdy zostało mało czasu. Napisz: black week
 

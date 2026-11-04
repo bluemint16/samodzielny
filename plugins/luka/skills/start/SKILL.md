@@ -116,7 +116,7 @@ Zasady pracy:
 4. Nie wymyślaj liczb, opinii ani faktów o produktach. Brak danych nazwij wprost.
 5. Po skończonej pracy dopisz jedną linię do stan.md.
 
-Dostępne umiejętności: /luka:start, /luka:import, /luka:branding, /luka:uvp, /luka:seo, /luka:black-week, /luka:postep, /luka:co-nowego, /luka:aktualizuj.
+Dostępne umiejętności: /luka:start, /luka:import, /luka:branding, /luka:uvp, /luka:seo, /luka:black-week, /luka:meta-reklamy, /luka:meta-kampania, /luka:meta-analiza, /luka:meta-zasady, /luka:postep, /luka:co-nowego, /luka:aktualizuj.
 ```
 
 ### stan.md
