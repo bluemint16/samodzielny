@@ -101,5 +101,5 @@ Dopasuj do planu i podaj w kolejności, z wartościami do wpisania:
 
 - Dni 1–3: czy reklamy są zaakceptowane i się wyświetlają, czy wydatki idą, czy wejścia na stronę zgadzają się z kliknięciami.
 - Dni 4–7: pierwsze sygnały, bez zmian w trakcie fazy uczenia.
-- Po zebraniu progu z planu testu: `meta-analiza`.
+- Po zebraniu progu z planu testu: tryb Analiza (`references/tryb-analiza.md`).
 - Zasady: wstrzymaj, gdy produkt się wyprzedał, sklep nie działa albo reklama obiecuje nieaktualną ofertę. Zwiększaj budżet stopniowo (do ok. 20% naraz), bo większa zmiana restartuje uczenie.

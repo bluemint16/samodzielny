@@ -1,5 +1,9 @@
 # Co nowego w asystencie
 
+## 0.1.8
+- **meta** (zmiana): wszystkie reklamy na Facebooku i Instagramie pod jednym poleceniem. Napisz: meta. Asystent sam rozpozna, czego teraz potrzebujesz (przygotowanie, nowa kampania, wyniki, sprawdzenie reklamy), pokaże, gdzie jesteś, i poprowadzi Cię krok po kroku.
+- Stare polecenia meta reklamy, meta kampania, meta analiza i meta zasady zastępuje jedno: meta. Twoje kampanie i pliki zostają bez zmian.
+
 ## 0.1.7
 - **meta reklamy** (nowość): reklamy na Facebooku i Instagramie krok po kroku. Asystent pamięta Twoje kampanie i prowadzi każdą od planu do wyników. Napisz: meta reklamy
 - **meta kampania**: plan kampanii, teksty reklam, brief grafik i instrukcja „co kliknąć” w Menedżerze reklam. Uczciwie mówi, na co starczy budżet.

@@ -37,7 +37,7 @@ W BE ROAS nie ma kosztów stałych (pensje, agencja, narzędzia). Pełny obraz d
 | **Mocno skaluj** | ROAS netto wyraźnie powyżej progu **i** CPA wyraźnie poniżej (np. ROAS 4, CPA 30 zł) | duży zapas, zwiększaj budżet i dokładaj nowe reklamy |
 
 **Zastrzeżenia, zawsze:**
-- strefy stosuj na właściwym poziomie oceny i z wystarczającą próbą (`SKILL.md` umiejętności `meta-analiza`, Krok 2–3): pierwsze wnioski o reklamie po wydaniu ok. 2–3× Max CPA, o nowym zestawie ok. 5× Max CPA,
+- strefy stosuj na właściwym poziomie oceny i z wystarczającą próbą (`references/tryb-analiza.md`, Krok 2–3): pierwsze wnioski o reklamie po wydaniu ok. 2–3× Max CPA, o nowym zestawie ok. 5× Max CPA,
 - nie wyłączaj części kampanii z budżetem Advantage+ tylko przez wyższy średni koszt (efekt podziału, `mechanizmy.md`),
 - reklama „asystująca” może mieć mało zakupów, a pracować na sprzedaż (`piksel-i-atrybucja.md`).
 

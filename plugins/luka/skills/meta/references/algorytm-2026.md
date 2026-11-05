@@ -67,4 +67,4 @@ Wartość w aukcji ≈ (stawka, czyli ile sklep może zapłacić za klienta) × 
 
 ## Sygnał
 
-Jeśli sklep ma 100 zamówień, a Meta widzi 70, system zaniża szansę na akcję i przegrywa aukcje. Podłoga to piksel + Conversions API (po stronie serwera) z deduplikacją. Dobra jakość danych usuwa karę, ale sama nie zwiększy sprzedaży przy słabej ofercie i reklamach. Sprawdzanie piksela: `meta-analiza`, plik `references/piksel-i-atrybucja.md`.
+Jeśli sklep ma 100 zamówień, a Meta widzi 70, system zaniża szansę na akcję i przegrywa aukcje. Podłoga to piksel + Conversions API (po stronie serwera) z deduplikacją. Dobra jakość danych usuwa karę, ale sama nie zwiększy sprzedaży przy słabej ofercie i reklamach. Sprawdzanie piksela: `references/piksel-i-atrybucja.md`.

@@ -21,7 +21,7 @@
 - wielkość grupy remarketingowej wg częstotliwości: częstotliwość powyżej ok. 8 w 7 dni przy remarketingu 30 dni → poszerz okno (np. 90 dni) albo zmniejsz budżet; bardzo duża grupa 90 dni → podziel (0–60, 60–90 dni),
 - umiejscowienia: domyślnie Advantage+, wyłącz Audience Network.
 
-**Reklama:** gdy spada CTR i rośnie koszt zakupu: nowy haczyk, technika 10 problemów, nagłówki (informacyjny, emocjonalny, wezwanie), nowe grafiki i wideo, inny format (karuzela, kolekcja), ten sam pomysł w kilku formatach (`meta-kampania/references/kreacje.md`). W sklepie: remarketing z karuzelą dynamiczną z katalogu.
+**Reklama:** gdy spada CTR i rośnie koszt zakupu: nowy haczyk, technika 10 problemów, nagłówki (informacyjny, emocjonalny, wezwanie), nowe grafiki i wideo, inny format (karuzela, kolekcja), ten sam pomysł w kilku formatach (`references/kreacje.md`). W sklepie: remarketing z karuzelą dynamiczną z katalogu.
 
 **Zmiany w istniejącym zestawie:** nie wymieniaj wielu reklam naraz. Wyłącz jedną, odczekaj dzień, dodaj nową: duża wymiana potrafi zresetować uczenie.
 

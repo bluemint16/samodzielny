@@ -1,6 +1,6 @@
 # Materiały zewnętrzne (third-party notices)
 
-Umiejętności `meta-reklamy`, `meta-kampania`, `meta-analiza` i `meta-zasady` to polskie, przepisane i dopasowane do sklepów internetowych wersje umiejętności z projektu GooseWorks:
+Umiejętność `meta` (przewodnik i tryby Kampania, Analiza, Zasady; do wersji 0.1.7 cztery osobne umiejętności `meta-reklamy`, `meta-kampania`, `meta-analiza`, `meta-zasady`) to polskie, przepisane i dopasowane do sklepów internetowych wersje umiejętności z projektu GooseWorks:
 
 - `meta-ad-manager`, `launch-meta-ad-campaign`, `meta-ads-analyzer`, `meta-ad-policy-checker`: https://github.com/gooseworks-ai/goose-skills (licencja MIT)
 - `meta-ads-campaign-builder`, `ad-campaign-analyzer`: https://github.com/gooseworks-ai/gooseworks-skills (licencja MIT według README repozytorium)
@@ -11,7 +11,7 @@ Zmiany względem oryginału: tłumaczenie na polski, praca bez połączenia z ko
 
 ## Wiedza Blue Mint
 
-Pliki wiedzy w umiejętnościach Meta (`algorytm-2026.md`, `struktury.md`, `kreacje.md`, `piksel-i-atrybucja.md`, `kokpit.md`, `rentownosc.md`, `skalowanie.md`) to skrót metod i reguł, napisany własnymi słowami na podstawie materiałów Blue Mint:
+Pliki wiedzy w umiejętności `meta` (`algorytm-2026.md`, `struktury.md`, `kreacje.md`, `piksel-i-atrybucja.md`, `kokpit.md`, `rentownosc.md`, `skalowanie.md`) to skrót metod i reguł, napisany własnymi słowami na podstawie materiałów Blue Mint:
 
 - „Kompletny przewodnik Meta Ads 2026: architektura, strategia i system dla e-commerce” (Blue Mint),
 - Patryk Kamelski, „Przestań patrzeć na wynik: Zacznij czytać grę w Meta Ads”, 2026, Copyright © Patryk Kamelski. Wszelkie prawa zastrzeżone. Asystent Luka zawiera wyłącznie streszczenie metod, a nie treść e-booka.

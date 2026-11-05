@@ -49,7 +49,7 @@ Szerokie kierowanie, ale mur między nowymi klientami a remarketingiem: zestaw n
 
 ## Struktura 6. Cztery filary (tylko duże sklepy z produkcją treści)
 
-1) testy (ABO, szeroko, bezwzględnie bez remarketingu; zwycięzców nie skalujesz tutaj, tylko duplikujesz dalej), 2) skalowanie (CBO, szeroko, tylko zwycięzcy, 70–80% budżetu), 3) nowe rynki (te same zwycięskie reklamy na nietypowe zainteresowania lub grupy podobnych), 4) remarketing specjalny (mały budżet: „ostatnia szansa”, niski stan, dosprzedaż). Skalowanie regułą 3 dni (`meta-analiza`, `references/skalowanie.md`). Nie dla małych sklepów.
+1) testy (ABO, szeroko, bezwzględnie bez remarketingu; zwycięzców nie skalujesz tutaj, tylko duplikujesz dalej), 2) skalowanie (CBO, szeroko, tylko zwycięzcy, 70–80% budżetu), 3) nowe rynki (te same zwycięskie reklamy na nietypowe zainteresowania lub grupy podobnych), 4) remarketing specjalny (mały budżet: „ostatnia szansa”, niski stan, dosprzedaż). Skalowanie regułą 3 dni (`references/skalowanie.md`). Nie dla małych sklepów.
 
 ## Dobór struktury
 
@@ -67,6 +67,6 @@ Struktury można łączyć, jeśli budżet i czas na analizę na to pozwalają.
 
 - Domyślnie umiejscowienia Advantage+ (automatyczne). Wyłącz Audience Network, szczególnie w kampaniach na wyświetlenia wideo.
 - Cel kampanii = rodzaj wyników. Chcesz sprzedaży, ustaw Sprzedaż. Z celu Ruch zwykle nie będzie sprzedaży (wyjątek: bardzo zaangażowana grupa remarketingowa).
-- Okno atrybucji: domyślnie 7 dni po kliknięciu i 1 dzień po wyświetleniu. 1 dzień tylko dla tanich produktów kupowanych impulsywnie (`meta-analiza`, `references/piksel-i-atrybucja.md`).
+- Okno atrybucji: domyślnie 7 dni po kliknięciu i 1 dzień po wyświetleniu. 1 dzień tylko dla tanich produktów kupowanych impulsywnie (`references/piksel-i-atrybucja.md`).
 - Zliczanie konwersji: „Wszystkie konwersje”.
 - Mieszany format reklamy (system sam wybiera obraz, karuzelę, kolekcję): wyłącz, gdy przekaz nie ma sensu jako karuzela.

@@ -10,11 +10,14 @@ Wszystkie pliki w `wyniki/meta-ads/`. Czytasz cały plik, zmieniasz, zapisujesz 
 Doświadczenie z reklamami Meta: [wcale / trochę / dużo]
 Konto reklamowe i strona na Facebooku: [nazwa, jeśli znana / BRAK DANYCH]
 Instagram połączony z kontem: [@nazwa / nie / BRAK DANYCH]
-Piksel Meta na stronie sklepu: [działa / nie ma / nie wiadomo]
-Conversions API i deduplikacja: [działa / nie ma / nie wiadomo]
-Progi rentowności: Max CPA [kwota] zł, BE ROAS [liczba] (z [kalkulator / wzór], [DATA])
-Wykluczenie kupujących: [lista klientów / kupujący z piksela X dni / brak]
 Zaktualizowano: [DATA]
+
+## Fundamenty
+
+- [✓/–] Piksel Meta na stronie sklepu: [działa / nie ma / nie wiadomo]; Conversions API i deduplikacja: [działa / nie ma / nie wiadomo]
+- [✓/–] Progi rentowności: Max CPA [kwota] zł, BE ROAS [liczba] (z [kalkulator / wzór], [DATA])
+- [✓/–] Profil na Instagramie i Facebooku: [żywy / do odświeżenia]
+- [✓/–] Wykluczenie kupujących: [lista klientów / kupujący z piksela X dni / brak]
 
 ## Kampanie
 

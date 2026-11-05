@@ -4,7 +4,7 @@
 
 ## Kreacja wyznacza odbiorców
 
-Przy szerokim kierowaniu to reklama decyduje, do kogo trafi kampania (`meta-reklamy/references/algorytm-2026.md`). Ta sama szeroka grupa z innym komunikatem to w praktyce inna grupa odbiorców. Dlatego reklamy projektujemy pod różne typy klientów (awatary) i ich różne problemy.
+Przy szerokim kierowaniu to reklama decyduje, do kogo trafi kampania (`references/algorytm-2026.md`). Ta sama szeroka grupa z innym komunikatem to w praktyce inna grupa odbiorców. Dlatego reklamy projektujemy pod różne typy klientów (awatary) i ich różne problemy.
 
 ## Test 2 sekund
 
@@ -30,7 +30,7 @@ W jednym zestawie warto mieć wszystkie 5 typów. Przykład dla sklepu: sklep z 
 
 - **Wariacja** (inny haczyk albo nagłówek w tym samym koncepcie): gdy koncept ma niski koszt zakupu i dobry ROAS; „wyciska” obecną grupę odbiorców.
 - **Nowy koncept** (inny format, inna osoba w kadrze, inne otoczenie, inny kąt, inna rola materiału): gdy częstotliwość rośnie, a ROAS spada; otwiera nową grupę odbiorców.
-Tabela, co jest pozorną nowością, a co prawdziwą: `meta-reklamy/references/algorytm-2026.md`.
+Tabela, co jest pozorną nowością, a co prawdziwą: `references/algorytm-2026.md`.
 
 ## Ile reklam
 
@@ -52,7 +52,7 @@ Dwie szkoły:
 - **Technika 10 problemów:** wypisz 10 problemów, które rozwiązuje produkt, i zrób osobny tekst do każdego. Często problem nr 7 sprzedaje lepiej niż ten uważany za główny. Testuj w osobnych zestawach z równym budżetem.
 - **Długość:** długa historia kontra krótkie punkty korzyści.
 - **Nagłówki:** wezwanie do działania, czysta informacja („Tylko do piątku: darmowa dostawa”), emocja. Do remarketingu zwykle informacyjne, do nowych odbiorców emocjonalne.
-- **Grafiki:** zdjęcie produktu, produkt w użyciu, grafika z hasłem; ta sama grafika z 5 różnymi hasłami; „przed i po” (uwaga na zasady Meta przy zdrowiu i urodzie: `meta-zasady`); rozwijaj kierunek, który wygrywa, ale stale dokładaj nowe.
+- **Grafiki:** zdjęcie produktu, produkt w użyciu, grafika z hasłem; ta sama grafika z 5 różnymi hasłami; „przed i po” (uwaga na zasady Meta przy zdrowiu i urodzie: `references/tryb-zasady.md`); rozwijaj kierunek, który wygrywa, ale stale dokładaj nowe.
 - **Wideo:** opinie klientów, nagrania telefonem, animacje; różne problemy w różnych filmach; tempo montażu; **3 wersje pierwszych 3 sekund przy tej samej reszcie filmu**.
 - **Formaty:** ten sam pomysł jako grafika, wideo i karuzela, bo różne formaty trafiają do różnych osób.
 

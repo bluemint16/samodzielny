@@ -1,13 +1,10 @@
----
-name: meta-analiza
-description: Analizuje wyniki reklam na Facebooku i Instagramie (Meta Ads) sklepu internetowego tak, jak robi to doświadczony specjalista - z pliku eksportu z Menedżera reklam, wklejonej tabeli albo zrzutów ekranu. Sprawdza właściwy poziom oceny, fazę uczenia, efekt podziału, nakładanie się odbiorców, tempo wydatków, zmęczenie reklam i pokrycie ścieżki klienta, wskazuje, co działa, a co marnuje pieniądze, i daje do 3 działań jako testy z planem cofnięcia. Używaj, gdy użytkownik pisze "przeanalizuj reklamy", "jak idą reklamy na facebooku", "czy wyłączyć tę reklamę", "koszt zakupu wzrósł", "dlaczego meta wydaje na droższe", "audyt konta reklamowego", "czego brakuje w moich reklamach", "jakie reklamy zrobić dalej", "mam eksport z menedżera reklam".
----
-
 # Analiza reklam Meta
+
+> Tryb umiejętności `meta`. Czytasz go, gdy przewodnik (`SKILL.md`) skierował tu właściciela. Wersja, `dane/` i spis kampanii są już przeczytane: nie powtarzaj tego i nie pytaj o zapisane fakty. Prowadź według zasad „za rękę” z `SKILL.md`: jeden krok naraz, potwierdzenie „zrobione?”, na końcu wróć do przewodnika (Krok 5 i Zakończenie).
 
 Większość analiz kończy się na „ten koszt zakupu jest wysoki, wyłącz”. To częściej błąd niż racja. Meta przydziela budżet tam, gdzie **następny** zakup jest najtańszy, a nie tam, gdzie średni koszt jest najniższy. Grupa z wyższym średnim kosztem często utrzymuje całą kampanię tanią. Jej wyłączenie pogarsza wynik.
 
-Ta umiejętność ocenia kampanie jak doświadczony specjalista: na właściwym poziomie, z uwzględnieniem fazy uczenia, oddzielając szum od sygnału i wyjaśniając, **dlaczego** system robi to, co robi, zanim cokolwiek zarekomenduje.
+Ten tryb ocenia kampanie jak doświadczony specjalista: na właściwym poziomie, z uwzględnieniem fazy uczenia, oddzielając szum od sygnału i wyjaśniając, **dlaczego** system robi to, co robi, zanim cokolwiek zarekomenduje.
 
 **Zasada:** najpierw całość, potem szczegóły. Koszt następnego zakupu ważniejszy niż średni. Pokrycie ścieżki klienta ważniejsze niż sztywny lejek. Każda rekomendacja to hipoteza do przetestowania, nie polecenie.
 
@@ -18,14 +15,13 @@ Pliki wiedzy:
 - `references/kokpit.md`: układ kolumn i wskaźniki niestandardowe (ROAS netto, retencja wideo),
 - `references/rentownosc.md`: BE ROAS, Max CPA, strefy decyzji, ROI konta, MER, gotówka, zwroty, LTV,
 - `references/skalowanie.md`: kierunki i tempo skalowania, poziomy zmian, wnioski z przypadków Blue Mint,
-- `${CLAUDE_PLUGIN_ROOT}/skills/meta-reklamy/references/algorytm-2026.md`: jak Meta wybiera reklamy.
+- `references/algorytm-2026.md`: jak Meta wybiera reklamy.
 
 **Luka nie łączy się z kontem reklamowym** i niczego w nim nie zmienia. Do zmian daje instrukcję, co kliknąć.
 
 ## Krok 0. Przygotowanie
 
-1. Raz na rozmowę sprawdź po cichu wersję (`claude plugin list` i `{{BASE_URL}}/version.json`, jak w innych umiejętnościach Luki).
-2. Przeczytaj `dane/` (marża, cel, klienci) i, jeśli istnieje, `wyniki/meta-ads/README.md` oraz `stan.md`, `plan.md`, `decyzje.md` analizowanej kampanii. Zacznij od tego, czy ostatnia rekomendacja została wykonana.
+Przeczytaj `stan.md`, `plan.md`, `decyzje.md` analizowanej kampanii (albo wszystkich kampanii przy audycie konta). Zacznij od tego, czy ostatnia rekomendacja została wykonana.
 
 ## Krok 1. Dane
 
@@ -82,7 +78,7 @@ Szczegóły każdej soczewki: `references/mechanizmy.md`.
 - **B. Rankingi trafności reklamy** (przy ok. 500+ wyświetleniach): ranking jakości poniżej średniej → problem z reklamą; ranking zaangażowania → słaby haczyk, pierwsze 3 sekundy; ranking współczynnika konwersji → problem po kliknięciu, sprawdź stronę względem reklamy. Dwa poniżej średniej i jeden średni → odśwież reklamę. Trzy poniżej → zbuduj od nowa.
 - **C. Nakładanie się odbiorców:** zestawy stale w ograniczonej fazie uczenia, niewydany budżet, nierówne wyświetlanie. Rozwiązanie: połączyć podobne zestawy.
 - **D. Tempo wydatków:** oceniaj cały okres, nie pojedyncze dni. Niedowydanie przez 3+ dni to sygnał (nakładanie, wąska grupa, strategia stawek).
-- **E. Wahania:** dzienna zmiana kosztu do 20–30% i różnica weekend/tydzień to norma. Nagły wzrost o 50%+ przez 3+ dni to problem. Prawie zero wyświetleń: najpierw konto, płatność, odrzucona reklama (wtedy `meta-zasady`). Spadek konwersji przy rosnących wydatkach: zmęczenie reklamy albo problem ze stroną. Zawsze sprawdź wielkość próby: różnica jednego zakupu przy małej liczbie nic nie znaczy.
+- **E. Wahania:** dzienna zmiana kosztu do 20–30% i różnica weekend/tydzień to norma. Nagły wzrost o 50%+ przez 3+ dni to problem. Prawie zero wyświetleń: najpierw konto, płatność, odrzucona reklama (wtedy tryb Zasady, `references/tryb-zasady.md`). Spadek konwersji przy rosnących wydatkach: zmęczenie reklamy albo problem ze stroną. Zawsze sprawdź wielkość próby: różnica jednego zakupu przy małej liczbie nic nie znaczy.
 - **F. Pokrycie ścieżki klienta** (przy audycie konta i pytaniach „czego brakuje?”, „co zrobić dalej?”): według `references/sciezka-klienta.md`.
 
 **Lejek z kokpitu** (`references/kokpit.md`): CTR (wszystkie) i retencja wideo → reklama; CTR linku i koszt wyświetlenia strony → ruch; koszyk, kasa, zakupy → sklep i oferta. Wskaż, na którym etapie klienci odpadają.
@@ -103,7 +99,7 @@ Każde ustalenie wydajności przeformułuj na to, **co system próbuje zrobić**
 
 ## Krok 6. Raport
 
-Zapisz w `wyniki/meta-ads/kampanie/<nazwa>/analiza_[DATA].md` (albo `wyniki/meta-ads/analiza_[DATA].md`, gdy kampania nie jest prowadzona przez `meta-reklamy`). Układ:
+Zapisz w `wyniki/meta-ads/kampanie/<nazwa>/analiza_[DATA].md` (albo `wyniki/meta-ads/analiza_[DATA].md`, gdy analiza dotyczy całego konta albo kampanii spoza spisu). Układ:
 
 ```text
 1. PODSUMOWANIE: 2–3 zdania o kondycji, 1 rzecz do zrobienia, 1 rzecz, której NIE robić
@@ -117,7 +113,7 @@ Zapisz w `wyniki/meta-ads/kampanie/<nazwa>/analiza_[DATA].md` (albo `wyniki/meta
 8. UWAGI O EFEKCIE PODZIAŁU: gdzie średnia ≠ koszt następnego zakupu; ostrzeżenia „nie rób X”
 ```
 
-Każda liczba z okresem danych. Gdy kampania jest prowadzona przez `meta-reklamy`: dopisz otwarte rekomendacje `R<n>` w `stan.md`, wpis w `decyzje.md` i wiersz w spisie.
+Każda liczba z okresem danych. Gdy kampania jest w spisie: dopisz otwarte rekomendacje `R<n>` w `stan.md`, wpis w `decyzje.md` i wiersz w spisie.
 
 ## Zasady raportu (obowiązkowe)
 
@@ -131,13 +127,13 @@ Każda liczba z okresem danych. Gdy kampania jest prowadzona przez `meta-reklamy
 - Raport prowadzący ma być zrozumiały bez doświadczenia: skróty rozwinięte przy pierwszym użyciu, przy każdej luce „dlaczego to ważne”, ustalenie oddzielone od działania.
 - Przychody przypisane przez Meta i przez Google nie sumują się (ta sama sprzedaż bywa liczona dwa razy). Do obrazu całości: MER = cały przychód sklepu / wszystkie wydatki na reklamy.
 
-## Czego ta umiejętność nie robi
+## Czego ten tryb nie robi
 
 - Nie zmienia niczego na koncie reklamowym.
-- Nie tworzy reklam (to `meta-kampania`), nie sprawdza zasad (to `meta-zasady`).
+- Nie tworzy reklam (to tryb Kampania), nie sprawdza zasad (to tryb Zasady).
 - Strony docelowej nie audytuje szczegółowo. Gdy ranking współczynnika konwersji jest poniżej średniej, porównaj obietnicę reklamy z treścią strony i zaproponuj sprawdzenie strony (np. `seo` dla karty produktu).
 
-Na końcu, jeśli Krok 0 wykrył nowszą wersję: "Jest nowa wersja asystenta. Napisz: aktualizuj".
+Zakończ według `SKILL.md` (zapis zmian i jeden następny krok, zwykle: „wróć z nowym eksportem za 3–7 dni i napisz: meta”).
 
 ---
 Na podstawie umiejętności `meta-ads-analyzer` (goose-skills) i `ad-campaign-analyzer` (gooseworks-skills) z projektu GooseWorks, licencja MIT. Opis mechanizmów Meta w oryginale zaadaptowany z projektu Mathiasa Chu (licencja MIT). Przepisane po polsku dla sklepów internetowych. Szczegóły: `THIRD-PARTY-NOTICES.md` w katalogu pluginu.

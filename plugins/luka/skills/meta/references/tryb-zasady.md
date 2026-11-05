@@ -1,17 +1,10 @@
----
-name: meta-zasady
-description: Sprawdza reklamę na Facebooku i Instagramie (Meta Ads) przed publikacją pod kątem zasad reklamowych Meta (pobiera aktualne zasady ze strony Meta) oraz polskich przepisów o obniżkach cen (najniższa cena z 30 dni). Daje werdykt OK / Do poprawy / Blokada z cytatami i bezpieczniejszymi wersjami tekstu. Pomaga też, gdy reklama została odrzucona. Używaj, gdy użytkownik pisze "sprawdź reklamę", "czy mogę tak napisać w reklamie", "reklama odrzucona", "meta odrzuciła reklamę", "zasady reklam facebook", "czy ta reklama przejdzie", albo przed akceptacją reklam w meta-kampania.
----
-
 # Zasady reklam Meta: sprawdzenie przed publikacją
+
+> Tryb umiejętności `meta`. Czytasz go, gdy przewodnik (`SKILL.md`) skierował tu właściciela. Wersja, `dane/` i spis kampanii są już przeczytane: nie powtarzaj tego i nie pytaj o zapisane fakty. Prowadź według zasad „za rękę” z `SKILL.md`: jeden krok naraz, potwierdzenie „zrobione?”, na końcu wróć do przewodnika (Krok 5 i Zakończenie).
 
 Meta stale odrzuca reklamy z powodu zasad, a większości odrzuceń można uniknąć. Zwykle chodzi o zwrot albo sugestię w tekście, które łamią opublikowane standardy reklamowe. Poprawka przed wysłaniem jest tania. Powtarzane odrzucenia mogą ograniczyć wyświetlanie albo zablokować konto.
 
-Ta umiejętność czyta reklamę, ustala, które zasady jej dotyczą, pobiera **aktualny** tekst zasad ze strony Meta i daje werdykt z cytatami i poprawkami. Nie opiera się na zapamiętanej liście, bo Meta zmienia zasady. Meta i tak ma ostatnie słowo.
-
-## Krok 0
-
-Raz na rozmowę sprawdź po cichu wersję (`claude plugin list` i `{{BASE_URL}}/version.json`). Przeczytaj `dane/sklep.md` i `dane/marka.md`, jeśli istnieją.
+Ten tryb czyta reklamę, ustala, które zasady jej dotyczą, pobiera **aktualny** tekst zasad ze strony Meta i daje werdykt z cytatami i poprawkami. Nie opiera się na zapamiętanej liście, bo Meta zmienia zasady. Meta i tak ma ostatnie słowo.
 
 ## Krok 1. Dane
 
@@ -101,16 +94,16 @@ UWAGI: obszary, w których Meta egzekwuje zasady różnie; strona docelowa; co w
 
 Zasady wyniku: **cytuj, nie streszczaj** (bez cytatu nie ma ustalenia), poprawka zmienia sposób powiedzenia, a nie ofertę ani odbiorców, zawsze powtórz założony kontekst. Wersje poprawione w tonie z `dane/marka.md`.
 
-Gdy reklama należy do kampanii prowadzonej przez `meta-reklamy`, dopisz werdykt do `decyzje.md` tej kampanii.
+Gdy reklama należy do kampanii ze spisu, dopisz werdykt do `decyzje.md` tej kampanii.
 
-## Czego ta umiejętność nie robi
+## Czego ten tryb nie robi
 
 - Nie zastępuje weryfikacji Meta ani porady prawnej.
 - Nie odczytuje tekstu z obrazów. Ocenia opis grafiki, jeśli go dostanie.
 - Nie decyduje, czy reklama powinna być w kategorii specjalnej.
 - Nie zna historii odrzuceń na koncie: werdykt to dolna granica ryzyka.
 
-Na końcu, jeśli Krok 0 wykrył nowszą wersję: "Jest nowa wersja asystenta. Napisz: aktualizuj".
+Zakończ według `SKILL.md`. Gdy sprawdzenie było częścią planowania kampanii, wróć do trybu Kampania (Etap 5).
 
 ---
 Na podstawie umiejętności `meta-ad-policy-checker` z projektu GooseWorks (goose-skills, licencja MIT), przepisanej po polsku i uzupełnionej o polskie zasady obniżek cen. Szczegóły: `THIRD-PARTY-NOTICES.md` w katalogu pluginu.
