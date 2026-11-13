@@ -1,5 +1,12 @@
 # Co nowego w asystencie
 
+## 0.1.9
+- **socialmedia** (nowość): maszyna social media budowana ruch po ruchu. Napisz: socialmedia. Asystent pokaże, gdzie jesteś, i poprowadzi Cię przez kolejny ruch.
+- Ruch 01, radar tematów: 10 prawdziwych pytań klientów, 3 najlepsze tematy i temat startowy.
+- Ruch 02, brief tematu: 5 dosłownych wypowiedzi klientów, główna myśl, reakcja i 3 pomysły na post.
+- Ruch 03, trzy wersje posta: praktyczna, historia i opinia, z oceną i rekomendacją.
+- Ruch 04, Twoje 3 style pisania i paczka 3 gotowych postów, zapisane jako szkice w Zernio albo jako pliki do wklejenia. Asystent niczego nie publikuje.
+
 ## 0.1.8
 - **meta** (zmiana): wszystkie reklamy na Facebooku i Instagramie pod jednym poleceniem. Napisz: meta. Asystent sam rozpozna, czego teraz potrzebujesz (przygotowanie, nowa kampania, wyniki, sprawdzenie reklamy), pokaże, gdzie jesteś, i poprowadzi Cię krok po kroku.
 - Stare polecenia meta reklamy, meta kampania, meta analiza i meta zasady zastępuje jedno: meta. Twoje kampanie i pliki zostają bez zmian.

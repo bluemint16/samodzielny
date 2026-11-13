@@ -35,6 +35,7 @@ Zapamiętaj zainstalowaną wersję do raportu. Jeśli dostępna jest wyższa, do
 | SEO | pliki w `wyniki/seo/` | istnieje którykolwiek |
 | Black Week | pliki w `wyniki/black-week/` | liczba kroków 1–7 |
 | Reklamy Meta | `wyniki/meta-ads/README.md` | liczba kampanii i ich etapy |
+| Social media | `wyniki/social-media/README.md` | gotowe ruchy (tabela „Ruchy”) |
 
 3. Policz w plikach `dane/*.md` wystąpienia `BRAK DANYCH`. To luki w wiedzy o sklepie.
 4. Jeśli `stan.md` istnieje, przeczytaj sekcje "Zrobione" i "Następny krok".
@@ -68,6 +69,7 @@ UVP                   [X z 6 kroków / gotowe]
 SEO                   [zaczęte / jeszcze nie]
 Black Week            [X z 7 kroków / jeszcze nie]
 Reklamy Meta          [kampanie i etapy / jeszcze nie]
+Social media          [ruchy gotowe, np. Ruch 01 / jeszcze nie]
 
 Luki w wiedzy o sklepie: [liczba] pól "BRAK DANYCH"
 ```
