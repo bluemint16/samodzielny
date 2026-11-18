@@ -57,6 +57,29 @@ Uruchamiasz po każdym ruchu i po każdym ponownym przebiegu radaru. Wynik zapis
 39. Decyzje właściciela zapisane jako reguły w `reguly.md`.
 40. Jest sekcja `WEJŚCIE DO RUCHU 05` z postem do grafiki, powodem i identyfikatorem szkicu albo ścieżką pliku.
 
+## Ruch 05. Publikator i odczyt kanałów
+
+41. Żaden klucz, hasło ani token nie pojawił się w rozmowie, poleceniu ani pliku.
+42. Użyto wyłącznie działań odczytu: nic nie opublikowano, nie zaplanowano, nie zmieniono, nie usunięto i nie wysłano.
+43. Poziom integracji nazwany zgodnie z tabelą, a mapa kanałów pokazuje stan połączenia.
+44. Każda liczba ma datę i okres. Brak danych zapisano jako „nieodczytane” z powodem, nie jako zero.
+45. Ze skrzynki zapisano tylko liczby, bez treści wiadomości i danych osób.
+46. Pory opisano jako nawyk, a przy mniej niż 10 postach z wynikami nie wskazano najlepszej pory.
+47. Szkice sprawdzono bez ich zmieniania albo zapisano, że ich nie ma.
+48. Jest jedna rzecz, której system nie robi bez osobnej zgody, i sekcja `WEJŚCIE DO RUCHU 06`.
+
+## Ruch 06. Grafika w szkicu
+
+49. Wybrany post ma źródło, a obraz niesie jego główną myśl.
+50. Są 3 różne pomysły, każdy z opisem, powodem, częścią sensu i ryzykiem generyczności.
+51. Właściciel wybrał pomysł, a przy płatnym narzędziu podał limit wydatku. Limit nie został przekroczony.
+52. Sprzedawany produkt pochodzi z prawdziwego zdjęcia. Nie ma wymyślonego logo, ceny, opinii, certyfikatu ani osoby.
+53. Na grafice jest najwyżej hasło do 6 słów i jedna krótka linia, a plik obejrzano po utworzeniu.
+54. Grafika przeszła cztery bramki kreacji w najwyżej 3 próbach, z oceną oznaczenia AI.
+55. Akceptacja właściciela była przed dołączeniem do szkicu.
+56. Odczyt kontrolny potwierdza status `draft`, niezmieniony tekst i grafikę w `mediaItems` albo nazwano jeden brak.
+57. Zapisano plik, projekt lub prompt, kartę przebiegu i sekcję `WEJŚCIE DO RUCHU 07`.
+
 ## Wynik
 
 ```text

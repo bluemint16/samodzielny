@@ -1,5 +1,11 @@
 # Co nowego w asystencie
 
+## 0.1.10
+- **socialmedia** (zmiana): jedno polecenie na cały proces. Napisz: socialmedia. Asystent sam sprawdzi, na którym etapie jesteś, i poprowadzi Cię dalej.
+- **socialmedia, Ruch 05** (nowość): podłączenie Zernio i pierwszy odczyt kanałów: obserwujący, wyniki postów, pory publikacji i szkice.
+- **socialmedia, Ruch 06** (nowość): pierwsza grafika do posta. 3 pomysły, gotowy plik 1080 × 1350 z Twoim prawdziwym zdjęciem i po Twojej akceptacji dołączenie do szkicu w Zernio.
+- Asystent niczego nie publikuje i nie odpowiada klientom. Kluczy i haseł nigdy nie wklejaj do rozmowy.
+
 ## 0.1.9
 - **socialmedia** (nowość): maszyna social media budowana ruch po ruchu. Napisz: socialmedia. Asystent pokaże, gdzie jesteś, i poprowadzi Cię przez kolejny ruch.
 - Ruch 01, radar tematów: 10 prawdziwych pytań klientów, 3 najlepsze tematy i temat startowy.

@@ -21,7 +21,9 @@ Główna metryka: [metryka], wynik początkowy: [wartość albo „nieznany”] 
 | 02. Brief tematu | [gotowe / w trakcie / czeka] | [ścieżka] |
 | 03. Trzy wersje posta | [gotowe / w trakcie / czeka] | [ścieżka] |
 | 04. Style i paczka postów | [gotowe / w trakcie / czeka] | [ścieżka] |
-| 05. Grafika | [czeka] | |
+| 05. Publikator i odczyt kanałów | [gotowe / w trakcie / czeka] | [ścieżka] |
+| 06. Grafika w szkicu | [gotowe / w trakcie / czeka] | [ścieżka] |
+| 07. Wideo | [czeka] | |
 
 ## Radar: jak uruchomić ponownie
 Kiedy: [raz w tygodniu, dzień]
@@ -298,5 +300,98 @@ Post do grafiki: [#, temat]
 Dlaczego: [...]
 Szkic: [id w publikatorze / ścieżka pliku]
 Styl, główna myśl, dowód: [...]
+```
+
+## [DATA]_odczyt-kanalow.md
+
+```markdown
+# Odczyt kanałów: [DATA, godzina]
+
+## 1. Poziom integracji
+Poziom: [0–4], [nazwa]
+Publikator: [Zernio / inny / brak], połączenie: [logowanie / klucz w zmiennej środowiskowej / brak]
+
+## 2. Mapa kanałów
+| Sieć | Profil firmowy | Stan połączenia | Obserwujący ([DATA]) |
+|---|---|---|---|
+| ... | ... | połączone / do ponownego połączenia | [liczba / nieodczytane: powód] |
+
+## 3. Wyniki postów (okres: [od–do])
+Liczba postów: [...]
+| Sieć | Data | Temat | Wskaźniki | Grupa |
+|---|---|---|---|---|
+| ... | ... | ... | ... | najlepsze / najsłabsze |
+
+## 4. Pory i częstotliwość (okres: [od–do], czas polski)
+Posty na tydzień: [...]
+Najczęstsze dni i godziny: [...]
+Wniosek: [... / za mało danych]
+
+## 5. Skrzynka odbiorcza ([DATA, godzina])
+Nieprzeczytane wiadomości: [liczba / co najmniej X / nieodczytane: powód]
+Nieprzeczytane komentarze: [liczba / nieodczytane: powód]
+
+## 6. Szkice w publikatorze
+| Data | Temat | Źródło | Jedna myśl | Kontrola jakości |
+|---|---|---|---|---|
+| ... | ... | jest / brak | jest / brak | jest / brak |
+
+## 7. Czego system nie robi bez osobnej zgody
+[...]
+
+## 8. Kontrola jakości
+[wynik według kontrola-jakosci.md]
+
+## WEJŚCIE DO RUCHU 06
+Poziom integracji: [...]
+Mapa kanałów: [...]
+Szkice: kolejne materiały powstają bezpośrednio w [publikator] / pliki do ręcznego wklejenia
+Post do grafiki: [#, temat, id szkicu albo ścieżka pliku]
+```
+
+## [DATA]_grafika-do-posta.md
+
+```markdown
+# Grafika do posta: [DATA]
+
+## 1. Post źródłowy
+Temat: [...]
+Źródło: [ścieżka pliku], szkic: [id / brak]
+Główna myśl: „...”
+Dlaczego ten post: [...]
+
+[pełny tekst posta]
+
+## 2. Trzy pomysły
+| # | Co widzimy | Dlaczego zatrzyma | Jaką część sensu niesie | Ryzyko generyczności | Materiał i koszt |
+|---|---|---|---|---|---|
+| 1 | ... | ... | ... | ... | ... |
+
+Rekomendacja: [#]. Wybór właściciela: [#], [DATA]
+
+## 3. Wykonanie
+Narzędzie: [układ HTML / Gemini / OpenAI / inne]
+Limit wydatku: [kwota / nie dotyczy], wydano: [kwota / bezpłatnie], próby: [X z 3]
+Prompt albo opis projektu:
+[...]
+Plik: wyniki/social-media/assets/[nazwa].jpg
+Projekt: wyniki/social-media/assets/[nazwa].html
+Źródła materiałów: [zdjęcie, logo, prawa do użycia]
+
+## 4. Bramki kreacji
+[wynik według bramki-kreacji.md]
+
+## 5. Akceptacja i szkic
+Akceptacja właściciela: [DATA]
+Szkic: [id], status: [draft], grafika w mediaItems: [tak / nie], tekst bez zmian: [tak / nie]
+Brak: [nic / jedna nazwana rzecz]
+
+## 6. Kontrola jakości
+[wynik według kontrola-jakosci.md]
+
+## WEJŚCIE DO RUCHU 07
+Temat wideo: [...]
+Reakcja, którą wideo ma wywołać: [...]
+Źródło tematu: [...]
 ```
 

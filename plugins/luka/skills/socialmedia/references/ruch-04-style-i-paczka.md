@@ -10,7 +10,7 @@ To nie jest jeden pomysł rozciągnięty na trzy wersje. To trzy różne tematy,
 3. tabela: temat, źródło, styl, reakcja, status,
 4. posty zapisane jako szkice w publikatorze (jeśli jest podłączony) albo jako pliki do ręcznego wklejenia,
 5. reguły z decyzji właściciela,
-6. sekcja `WEJŚCIE DO RUCHU 05` (grafika do jednego posta).
+6. sekcja `WEJŚCIE DO RUCHU 05` (post wskazany do grafiki; Ruch 05 przekaże go do Ruchu 06).
 
 Pliki wiedzy: `references/karta-decyzji.md`, `references/styl-bez-ai.md` (z twardymi progami tekstu), `references/otwarcia-i-formaty.md`.
 
@@ -75,7 +75,7 @@ Zapytaj: „Czy któryś post wymaga poprawki przed zapisem jako szkic?” Do de
 
 **Zernio** (oficjalny serwer MCP, logowanie przez przeglądarkę, bez kopiowania klucza):
 - narzędzia: `posts_create` z `is_draft: true` (szkic, bez terminu; nigdy `publish_now` ani `scheduled_for`), `posts_get` z `post_id` (odczyt kontrolny), `posts_list` ze statusem `draft` (sprawdzenie, czy szkic jest na liście). Konta i profile pobierz narzędziem listy kont przed zapisem,
-- gdy Zernio nie jest podłączony, a właściciel ma konto i chce go użyć: zaproponuj podłączenie tylko dla tego projektu poleceniem `claude mcp add --transport http zernio https://mcp.zernio.com/mcp` (uruchom po jego zgodzie), potem logowanie do Zernio w przeglądarce (w terminalu: `claude`, następnie `/mcp`, wybór `zernio`). Po podłączeniu trzeba zacząć nową rozmowę. **Nigdy nie proś o klucz API**; logowanie przez przeglądarkę go nie wymaga,
+- gdy Zernio nie jest podłączony, a właściciel chce go użyć: przeprowadź go przez Ruch 05, Etap B (`references/ruch-05-publikator-odczyt.md`). **Nigdy nie proś o klucz API w rozmowie**,
 - inne publikatory (Buffer, Publer i podobne): tak samo, tylko szkic i odczyt kontrolny, nazwy narzędzi według tego, co jest dostępne w sesji.
 
 **Gdy publikatora nie ma:** zapisz każdy post jako czysty tekst w `wyniki/social-media/posty/[DATA]_post-[n].txt` (bez znaków formatowania Markdown, gotowy do wklejenia). W podsumowaniu nazwij brak jednym zdaniem: „Nie masz podłączonego publikatora, więc posty są w plikach do wklejenia ręcznie.”
@@ -108,7 +108,7 @@ Pokaż:
 Na końcu:
 - „Napisz »skopiuj post 1«, a dam Ci czysty tekst do wklejenia (skopiuję go też do schowka).”
 - Zaproponuj powtórzenie pętli z kolejnym sygnałem z radaru („Zrobić kolejną paczkę z następnych sygnałów?”), zamiast czekać na kolejny ruch.
-- Następny krok: Ruch 05, grafika do wybranego posta.
+- Następny krok: Ruch 05, podłączenie publikatora i pierwszy odczyt kanałów.
 
 ## Kopiowanie do schowka
 

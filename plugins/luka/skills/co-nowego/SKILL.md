@@ -26,7 +26,7 @@ Co umiem:
 - uvp: po brandingu ustalamy, dlaczego klient ma kupić właśnie u Ciebie
 - postęp: pokazuję, gdzie jesteś i co dalej (raport na spotkanie)
 - meta: reklamy na Facebooku i Instagramie w jednym miejscu, krok po kroku (przygotowanie, plan, reklamy, ustawienie, wyniki, zasady)
-- socialmedia: maszyna social media budowana ruch po ruchu (radar tematów, brief ze słów klientów, wersje posta, Twoje style pisania i paczka postów)
+- socialmedia: maszyna social media budowana ruch po ruchu (radar tematów, brief ze słów klientów, wersje posta, Twoje style pisania, paczka postów, podłączenie Zernio, odczyt kanałów i grafika w szkicu posta)
 - black week: plan promocji na Black Week, Black Friday i Cyber Monday
 - seo: audyt, frazy, opisy kart i kategorii, widoczność w AI, przegląd Search Console
 - aktualizuj: pobieram najnowszą wersję

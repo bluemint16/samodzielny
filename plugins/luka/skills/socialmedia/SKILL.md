@@ -1,6 +1,6 @@
 ---
 name: socialmedia
-description: Maszyna social media sklepu internetowego, budowana ruch po ruchu (jeden ruch = jedna lekcja społeczności). Ruch 01 - radar tematów (10 prawdziwych pytań klientów ze źródłami, 3 tematy, temat startowy, wynik początkowy metryki). Ruch 02 - brief tematu (5 dosłownych wypowiedzi klientów, główna myśl, reakcja odbiorcy, 3 pomysły). Ruch 03 - 3 wersje posta (praktyczna, historia, opinia) w głosie sklepu, z oceną. Ruch 04 - 3 style pisania właściciela i paczka 3 postów z różnych sygnałów, zapisane jako szkice w publikatorze (np. Zernio) albo pliki. Kolejne ruchy dochodzą z aktualizacjami. Niczego nie publikuje bez zgody. Używaj, gdy użytkownik pisze "socialmedia", "social media", "radar tematów", "o czym pisać", "tematy na posty", "pytania klientów", "brief posta", "pomysł na post", "napisz post", "wersje posta", "post na instagram", "post na facebook", "ruch 01", "ruch 02", "ruch 03", "ruch 04", "style pisania", "karta decyzji", "następny ruch".
+description: Maszyna social media sklepu internetowego, budowana ruch po ruchu (jeden ruch = jedna lekcja społeczności). Jedno polecenie na cały proces: sama rozpoznaje z plików, na którym etapie jest właściciel, i prowadzi dalej. Ruch 01 - radar tematów z prawdziwych pytań klientów. Ruch 02 - brief tematu ze słów klientów. Ruch 03 - 3 wersje posta z oceną. Ruch 04 - 3 style pisania właściciela i paczka 3 postów. Ruch 05 - podłączenie Zernio i pierwszy odczyt kanałów. Ruch 06 - pierwsza grafika dołączona do szkicu. Kolejne ruchy dochodzą z aktualizacjami. Niczego nie publikuje bez zgody. Używaj, gdy użytkownik pisze "socialmedia", "social media", "radar tematów", "o czym pisać", "tematy na posty", "pytania klientów", "brief posta", "pomysł na post", "napisz post", "wersje posta", "post na instagram", "post na facebook", "style pisania", "karta decyzji", "zernio", "podłącz zernio", "odczyt kanałów", "grafika do posta", "sprawdź grafikę", "następny ruch", "kolejny ruch", "kontynuuj social media", "co dalej w social media".
 ---
 
 # Maszyna social media
@@ -15,8 +15,10 @@ Ruch 01  Radar tematów: 10 sygnałów od klientów, 3 tematy, temat startowy
 Ruch 02  Brief tematu: 5 zdań klientów, główna myśl, reakcja, 3 pomysły na post
 Ruch 03  3 wersje posta, ocena i wersja wybrana
 Ruch 04  3 style pisania i paczka 3 postów z różnych sygnałów, zapisane jako szkice
-Ruch 05  Grafika do wybranego posta
-Dalej    wideo → przygotowanie publikacji → publikacja po Twojej zgodzie → wyniki → poprawki
+Ruch 05  Podłączenie Zernio i pierwszy odczyt kanałów
+Ruch 06  Pierwsza grafika dołączona do szkicu posta
+Ruch 07  Krótkie wideo
+Dalej    przygotowanie publikacji → publikacja po Twojej zgodzie → wyniki → poprawki
 ```
 
 | Ruch | Plik | Gotowy, gdy |
@@ -25,9 +27,11 @@ Dalej    wideo → przygotowanie publikacji → publikacja po Twojej zgodzie →
 | 02. Brief tematu | `references/ruch-02-brief.md` | istnieje plik `wyniki/social-media/*_brief-tematu.md` z sekcją `WEJŚCIE DO RUCHU 03` |
 | 03. Trzy wersje posta | `references/ruch-03-wersje-posta.md` | istnieje plik `wyniki/social-media/*_wersje-posta.md` z sekcją `WEJŚCIE DO RUCHU 04` |
 | 04. Style i paczka postów | `references/ruch-04-style-i-paczka.md` | istnieje plik `wyniki/social-media/*_paczka-trzech-postow.md` z sekcją `WEJŚCIE DO RUCHU 05` |
-| 05. Grafika | jeszcze nie ma w tej wersji | |
+| 05. Publikator i odczyt kanałów | `references/ruch-05-publikator-odczyt.md` | istnieje plik `wyniki/social-media/*_odczyt-kanalow.md` z sekcją `WEJŚCIE DO RUCHU 06` |
+| 06. Grafika w szkicu | `references/ruch-06-grafika.md` | istnieje plik `wyniki/social-media/*_grafika-do-posta.md` z sekcją `WEJŚCIE DO RUCHU 07` |
+| 07. Wideo | jeszcze nie ma w tej wersji | |
 
-Pliki wspólne: `references/szablony.md` (pliki systemu), `references/otwarcia-i-formaty.md`, `references/styl-bez-ai.md` i `references/karta-decyzji.md` (pisanie), `wyniki/social-media/reguly.md` u właściciela (reguły z jego decyzji: czytaj przed każdym pisaniem), `references/zrodla-sygnalow.md` (gdzie szukać sygnałów), `references/kontrola-jakosci.md` (kontrola po każdym ruchu).
+Pliki wspólne: `references/szablony.md` (pliki systemu), `references/otwarcia-i-formaty.md`, `references/styl-bez-ai.md` i `references/karta-decyzji.md` (pisanie), `references/bramki-kreacji.md` i `references/grafika-narzedzia.md` (grafika), `wyniki/social-media/reguly.md` u właściciela (reguły z jego decyzji: czytaj przed każdym pisaniem), `references/zrodla-sygnalow.md` (gdzie szukać sygnałów), `references/kontrola-jakosci.md` (kontrola po każdym ruchu).
 
 ## Zasady (zawsze)
 
@@ -53,9 +57,45 @@ Pliki wspólne: `references/szablony.md` (pliki systemu), `references/otwarcia-i
 3. Przeczytaj `stan.md`. Jeśli nie ma `stan.md` albo `dane/sklep.md`: „Najpierw muszę poznać Twój sklep. Napisz: start” i zakończ.
 4. Przeczytaj `wyniki/social-media/README.md`, jeśli istnieje.
 
-## Krok 1. Który ruch
+## Krok 1. Rozpoznaj etap (sam, za każdym razem)
 
-- Wiadomość wskazuje ruch („ruch 01”, „radar”, „ruch 02”) → ten ruch. Gdy wskazany ruch nie istnieje w tej wersji: powiedz, że pojawi się z aktualizacją, i zaproponuj to, co jest dostępne.
+Właściciel uruchamia tylko `/luka:socialmedia`. **Nigdy nie pytaj, nad którym ruchem pracuje, i nigdy nie każ mu wpisywać numeru ruchu.** Etap odczytujesz z plików, zanim cokolwiek zaproponujesz. To rozpoznanie niczego nie zapisuje.
+
+1. **Sprawdź każdy ruch z tabeli.** Ruch jest gotowy, gdy w `wyniki/social-media/` istnieje plik z kolumny „Gotowy, gdy” razem z wymaganą sekcją. Pliki są ważniejsze niż statusy w `README.md` i `stan.md`. Gdy się różnią, wierz plikom i popraw `README.md` przy najbliższym zapisie.
+2. **Bieżący ruch to ruch następny po najwyższym gotowym.** Gdy żaden nie jest gotowy, to Ruch 01. Nie cofaj właściciela do pominiętych ruchów, bo każdy ruch radzi sobie bez wcześniejszych plików.
+3. **Sprawdź, czy bieżący ruch nie został przerwany**, i wejdź w pracę we właściwym miejscu:
+
+| Ślad w plikach | Gdzie wchodzisz |
+|---|---|
+| Plik bieżącego ruchu istnieje, ale nie ma sekcji `WEJŚCIE DO RUCHU` | uzupełniasz brakujące części tego pliku, nie zaczynasz od nowa |
+| Ruch 04: `dane/marka.md` ma sekcję „Style pisania”, a paczki nie ma | Etap C, stylów nie tworzysz ponownie |
+| Ruch 04: są pliki w `wyniki/social-media/posty/`, a paczki nie ma | Etap E, na podstawie tych plików |
+| Ruch 05: narzędzia publikatora albo klucz już działają | plan odczytu, bez prowadzenia przez podłączenie |
+| Ruch 06: w `wyniki/social-media/assets/` jest grafika, a karty `*_grafika-do-posta.md` nie ma | pokazujesz tę grafikę i prosisz o akceptację (Etap D, punkt 6). Nowej nie generujesz, bo może to kosztować |
+| Brak śladów | Etap A pliku ruchu |
+
+4. **Powiedz właścicielowi, co widzisz**, i od razu przejdź do pracy, bez pytania o numer ruchu. Zgody opisane w pliku ruchu nadal obowiązują.
+
+```text
+Widzę, że skończyliśmy na paczce postów. Teraz podłączymy Zernio.
+
+✓ Ruch 01  Radar tematów
+✓ Ruch 02  Brief tematu
+✓ Ruch 03  3 wersje posta
+✓ Ruch 04  3 style pisania i paczka postów
+→ Ruch 05  Podłączenie Zernio i odczyt kanałów  ← jesteś tutaj
+  Ruch 06  Pierwsza grafika w szkicu posta
+```
+
+Przeczytaj plik bieżącego ruchu i prowadź według niego. Gdy ruch się skończy, a właściciel w tej samej rozmowie napisze „dalej” albo „idziemy”, ponów Krok 1.
+
+**Wszystkie dostępne ruchy gotowe:** powiedz, co już masz, zaproponuj jedno działanie (nowy radar, gdy ostatni jest starszy niż 7 dni, albo kolejną paczkę postów lub grafikę) i poinformuj, że kolejny ruch przyjdzie z aktualizacją.
+
+### Gdy właściciel prosi o coś konkretnego
+
+Konkretna prośba ma pierwszeństwo przed bieżącym ruchem. Po jej wykonaniu wróć do bieżącego ruchu.
+
+- Numer albo nazwa ruchu w wiadomości (np. we wklejonym tekście lekcji) to tylko wskazówka. Zgodna z bieżącym ruchem: pracuj dalej. Gotowy ruch: zapytaj, czy poprawić zapisany wynik, czy iść dalej. Późniejszy ruch: powiedz jednym zdaniem, co jest jeszcze niegotowe, i zaproponuj bieżący. Gdy właściciel woli przeskoczyć, przejdź do wskazanego. Ruch nieobecny w tej wersji: powiedz, że pojawi się z aktualizacją.
 - „Uruchom radar ponownie”, „nowe tematy”, „przebieg radaru” przy gotowym Ruchu 01 → ponowny przebieg według sekcji „Ponowne uruchomienie” w `references/ruch-01-radar.md`.
 - „Uzupełnij radar” (po dorzuceniu zrzutów) → w najnowszym pliku radaru zastąp miejsca `DO ZEBRANIA` nowymi sygnałami, przelicz oceny, sprawdź, czy 3 tematy i temat startowy są nadal te same (zmianę opisz), ponów kontrolę jakości.
 - „Uzupełnij brief”, „nie podoba mi się żaden pomysł”, „wybieram pomysł b” → w najnowszym briefie: dobierz wypowiedzi w miejsca `DO ZEBRANIA`, przygotuj nowy pomysł na tych samych wypowiedziach (według uwagi właściciela) albo zmień wybrany pomysł w `WEJŚCIE DO RUCHU 03`; ponów kontrolę jakości.
@@ -63,11 +103,14 @@ Pliki wspólne: `references/szablony.md` (pliki systemu), `references/otwarcia-i
 - „Karta decyzji” → wypełnij `references/karta-decyzji.md` dla materiału, o który chodzi.
 - „Skopiuj do schowka”, „skopiuj post N” → czysty tekst i kopia do schowka (sekcja „Kopiowanie do schowka” w `references/ruch-04-style-i-paczka.md`).
 - „Kolejna paczka”, „następne posty” przy gotowym Ruchu 04 → ponów etapy C–E Ruchu 04 z kolejnymi sygnałami z radaru (style już są).
-- „Podłącz Zernio” → sekcja o Zernio w Etapie D `references/ruch-04-style-i-paczka.md` (podłączenie po zgodzie, logowanie w przeglądarce, nigdy klucz w rozmowie).
-- Wiadomość ogólna („socialmedia”) → pierwszy niegotowy ruch z tabeli. Pokaż mapę z „← jesteś tutaj”.
-- Wszystkie dostępne ruchy gotowe → powiedz, co już masz, zaproponuj ponowny przebieg radaru (gdy ostatni jest starszy niż 7 dni) i poinformuj, że kolejny ruch przyjdzie z aktualizacją.
+- „Podłącz Zernio” → Ruch 05, Etap B (`references/ruch-05-publikator-odczyt.md`).
+- „Odczyt kanałów”, „odśwież odczyt” przy gotowym Ruchu 05 → ponów Etap C, zapisz plik z nową datą i porównaj z poprzednim odczytem.
+- „Zapisz posty jako szkice” przy podłączonym publikatorze → Etap D Ruchu 04 dla najnowszej paczki, po pokazaniu listy postów i zgodzie właściciela.
+- „Sprawdź grafikę” → oceń wskazany plik według `references/bramki-kreacji.md`. Niczego nie zmieniaj bez prośby.
+- „Kolejna grafika” przy gotowym Ruchu 06 → ponów etapy B–F Ruchu 06 dla następnego posta.
+- „Status” → pokaż mapę ruchów, poziom integracji, ostatni radar, ostatni odczyt i decyzje czekające na właściciela. Tylko odczyt plików.
 
-Przeczytaj plik ruchu i prowadź według niego. Właściciel może wkleić tekst zadania z lekcji (np. polecenie z Publigo): traktuj go jako zgodę na start ruchu, ale zawsze pracuj według pliku ruchu i zasad tej umiejętności.
+Właściciel może wkleić tekst zadania z lekcji (np. polecenie z Publigo): traktuj go jako zgodę na start bieżącego ruchu, ale zawsze pracuj według pliku ruchu i zasad tej umiejętności.
 
 ## Krok 2. Po każdym ruchu
 
@@ -78,6 +121,6 @@ Przeczytaj plik ruchu i prowadź według niego. Właściciel może wkleić tekst
 
 ## Zakończenie
 
-Pokaż podsumowanie z pliku ruchu (każdy ruch określa, co pokazać), **dokładną ścieżkę zapisanego pliku** i jedno zdanie „Dowód ruchu” do wklejenia w społeczności. Potem jeden następny krok.
+Pokaż podsumowanie z pliku ruchu (każdy ruch określa, co pokazać), **dokładną ścieżkę zapisanego pliku** i jedno zdanie „Dowód ruchu” do wklejenia w społeczności. Potem jeden następny krok i zdanie: „Gdy będziesz gotowy, wpisz /luka:socialmedia. Sam rozpoznam, gdzie skończyliśmy.”
 
 Jeśli Krok 0 wykrył nowszą wersję, a nie powiedziałeś tego na początku: "Jest nowa wersja asystenta. Napisz: aktualizuj".
